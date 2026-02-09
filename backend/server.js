@@ -8,7 +8,10 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: ["https://resource-management-system-frontend.onrender.com", "http://localhost:5173"], // Allow both live and local
+  credentials: true
+}));
 app.use(morgan('dev')); 
 
 // Database Connection with Error Handling

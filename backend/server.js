@@ -29,6 +29,7 @@ app.use('/api/auth', require('./routes/auth'));
 // SEPARATE RESOURCE ROUTES
 // This maps your separate logic files to specific URL paths
 app.use('/api/auth', require('./routes/auth'));
+app.use('/api/student', studentRoutes);
 app.use('/api/resource/canteen', require('./routes/canteen'));
 app.use('/api/resource/hostel', require('./routes/hostel'));
 app.use('/api/resource/stationery', require('./routes/stationery'));

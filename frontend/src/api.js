@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', 
+  baseURL: 'http://https://resource-management-system-backend.onrender.com/api', 
 });
 
 // THIS IS THE KEY: It attaches the token to every request automatically

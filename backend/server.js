@@ -38,4 +38,7 @@ app.use('/api/resource/stationery', require('./routes/stationery'));
 app.use('/api/resource', require('./routes/resource'));
 
 const PORT = process.env.PORT || 5000;
+app.get('/', (req, res) => {
+    res.send("Campus Management System API is live and running!");
+});
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));

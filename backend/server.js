@@ -27,6 +27,7 @@ mongoose.connect(process.env.MONGO_URI)
 app.use('/api/auth', require('./routes/auth'));
 
 
+
 // SEPARATE RESOURCE ROUTES
 // This maps your separate logic files to specific URL paths
 app.use('/api/auth', require('./routes/auth'));

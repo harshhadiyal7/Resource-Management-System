@@ -77,7 +77,6 @@ const RegisterPage = () => {
             onChange={(e) => setForm({ ...form, email: e.target.value })}
             required
           />
-
           <input
             type="password"
             placeholder="Create Password"

@@ -70,7 +70,7 @@ const RegisterPage = () => {
             </select>
           )}
 
-          <input
+          <input  
             type="email"
             placeholder="Enter Email Address"
             className="w-full bg-[#0f172a] border border-slate-700 text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all placeholder:text-slate-500"

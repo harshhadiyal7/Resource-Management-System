@@ -195,7 +195,6 @@ const handleDeleteUser = async (id, name) => {
             </div>
           </div>
         </section>
-
         {/* SECTION 2: LIVE INVENTORY */}
         <section>
           <div className="bg-[#1e293b] rounded-3xl shadow-2xl border border-slate-800">

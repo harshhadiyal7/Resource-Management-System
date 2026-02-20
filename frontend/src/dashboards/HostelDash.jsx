@@ -157,7 +157,7 @@ const HostelDash = () => {
                     </p>
                   </div>
                 </div>
-
+                
                 <div className="flex gap-2 w-full md:w-auto">
                   <button
                     onClick={() => {
